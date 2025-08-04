@@ -15,12 +15,19 @@ A Chrome extension that automates YouTube Shorts playback flow: disables loop pe
 
 1) Get the code
 - Download as ZIP and extract, or `git clone` this repository.
+- Or download the packaged extension (.crx): [youtube-shorts-scroller.crx](./youtube-shorts-scroller.crx)
 
 2) Load into Chrome
-1. Open `chrome://extensions/`
-2. Toggle on "Developer mode"
-3. Click "Load unpacked"
-4. Select this project folder (the one containing `manifest.json`)
+- Method A: Load unpacked (recommended for developers)
+  1. Open `chrome://extensions/`
+  2. Toggle on "Developer mode"
+  3. Click "Load unpacked"
+  4. Select this project folder (the one containing `manifest.json`)
+- Method B: Install from .crx file
+  1. Open `chrome://extensions/`
+  2. Toggle on "Developer mode"
+  3. Drag and drop `youtube-shorts-scroller.crx` from this folder into the `chrome://extensions/` page
+  4. Confirm the installation prompt
 
 ## Usage
 1. After loading, you will see the extension icon in the toolbar.
@@ -79,3 +86,24 @@ Refer to `manifest.json` for the exact permissions.
 
 ## License
 For learning and personal use only. Use in accordance with YouTube and Chrome Extensions policies.
+
+---
+
+# 中文安裝快速指引（節錄）
+
+## 安裝
+
+1) 取得程式
+- 下載 ZIP 並解壓縮，或使用 `git clone`
+- 或直接下載已打包的擴充檔 (.crx)：[youtube-shorts-scroller.crx](./youtube-shorts-scroller.crx)
+
+2) 載入到 Chrome
+- 方式 A：載入未封裝（開發者建議）
+  1. 打開 `chrome://extensions/`
+  2. 開啟右上角「開發人員模式」
+  3. 點「載入未封裝項目」並選擇本資料夾（含 `manifest.json`）
+- 方式 B：透過 .crx 安裝
+  1. 打開 `chrome://extensions/`
+  2. 開啟「開發人員模式」
+  3. 將本目錄下的 `youtube-shorts-scroller.crx` 檔案拖曳到 `chrome://extensions/` 頁面
+  4. 在跳出的提示中確認安裝
