@@ -82,28 +82,7 @@ Refer to `manifest.json` for the exact permissions.
 ## Development
 - Adjust selectors in `content.js` to match YouTube UI updates
 - Use the built-in colored `console.log` for tracing
-- For publishing to the Chrome Web Store, follow Manifest V3 packaging guidelines
+
 
 ## License
 For learning and personal use only. Use in accordance with YouTube and Chrome Extensions policies.
-
----
-
-# 中文安裝快速指引（節錄）
-
-## 安裝
-
-1) 取得程式
-- 下載 ZIP 並解壓縮，或使用 `git clone`
-- 或直接下載已打包的擴充檔 (.crx)：[youtube-shorts-scroller.crx](./youtube-shorts-scroller.crx)
-
-2) 載入到 Chrome
-- 方式 A：載入未封裝（開發者建議）
-  1. 打開 `chrome://extensions/`
-  2. 開啟右上角「開發人員模式」
-  3. 點「載入未封裝項目」並選擇本資料夾（含 `manifest.json`）
-- 方式 B：透過 .crx 安裝
-  1. 打開 `chrome://extensions/`
-  2. 開啟「開發人員模式」
-  3. 將本目錄下的 `youtube-shorts-scroller.crx` 檔案拖曳到 `chrome://extensions/` 頁面
-  4. 在跳出的提示中確認安裝
