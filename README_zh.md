@@ -84,7 +84,6 @@
 ## 開發指南
 - 修改 `content.js` 選擇器以對應 YouTube UI 更新
 - 使用 `console.log` 追蹤流程（已內建彩色 log）
-- 若要發佈到 Chrome 線上商店，請參考 Manifest V3 打包與上架流程
-
+  
 ## 版權與授權
 此專案僅供學習與個人使用，請依據 YouTube 與 Chrome 擴充平台規範使用。
